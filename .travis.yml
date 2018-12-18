@@ -1,0 +1,10 @@
+---
+
+dist: xenial
+lanaguage: minimal
+addons:
+  apt:
+    packages:
+      - gdal-bin
+script:
+  - ./trigger.sh
