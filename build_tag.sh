@@ -7,7 +7,7 @@ source ./env.sh
 URI="${MAP}-latest.osm.pbf"
 FILE="${MAP##*/}-latest.osm.pbf"
 
-wget -c https://download.geofabrik.de/${URI}
+wget --quiet -c https://download.geofabrik.de/${URI}
 
 rm -rf docker/data
 mkdir -p docker/data
