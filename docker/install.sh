@@ -11,6 +11,6 @@ if ! mountpoint -q "$1" ; then
 fi
 
 echo "Installing to $1"
-cp -a /data $1
+cp -a /data/* $1/
 echo "done."
 
