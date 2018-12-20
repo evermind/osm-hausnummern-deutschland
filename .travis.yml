@@ -8,3 +8,6 @@ addons:
       - gdal-bin
 script:
   - ./trigger.sh
+env:
+  - MAP=europe/germany
+  - MAP=europe/germany/berlin
