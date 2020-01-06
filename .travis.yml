@@ -11,3 +11,5 @@ script:
 env:
   - MAP=europe/germany
   - MAP=europe/germany/berlin
+  - MAP=europe/austria
+  - MAP=europe/switzerland
